@@ -8,18 +8,19 @@ Foi utilizado o conjunto de imagens Chars74k para treinamento de uma CNN e depoi
 ### Para executá-lo é preciso instalar as dependências:
 
 Atualizar o sistema
-    * Abra o WSL Debian e execute:
-        * sudo apt update && sudo apt upgrade -y
-    * Instalar Python 3 + pip
-        * sudo apt install -y python3 python3-pip python3-venv python3-dev
-    * Checar:
-        * python3 --version
-        * pip3 --version
-    * Criar um ambiente virtual (ALTAMENTE recomendado)
-        * python3 -m venv mlenv
-        * source mlenv/bin/activate
-    * Quando quiser desativar:
-        * deactivate
+
+* Abra o WSL Debian e execute:
+   - sudo apt update && sudo apt upgrade -y
+* Instalar Python 3 + pip
+  - sudo apt install -y python3 python3-pip python3-venv python3-dev
+* Checar:
+  - python3 --version
+  - pip3 --version
+* Criar um ambiente virtual (ALTAMENTE recomendado)
+  - python3 -m venv mlenv
+  - source mlenv/bin/activate
+* Quando quiser desativar:
+  - deactivate
 
 Instalar dependências de compilação necessárias
     * sudo apt install -y build-essential libssl-dev libffi-dev python3-dev \
