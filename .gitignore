@@ -1,0 +1,10 @@
+node_modules
+__pycache__
+EnglishFnt
+EnglishImg
+img_*/
+mlenv
+package-lock.json
+*.lock
+*.log
+.env
