@@ -1,9 +1,22 @@
 # char_recognition_cnn
 
-Este projeto foi desenvolvido em novembro de 2025 para a disciplina de Visão Computacional, na Universidade Federal do Mato Grosso do Sul, Campo Grande, MS.
+Há algum tempo estavamos com essa ideia em mente, até que em novembro de 2025, para a disciplina de Visão Computacional, na Universidade Federal do Mato Grosso do Sul, Campo Grande, MS, tivemos condições de tirar essa ideia do papel.
+
 Foi utilizado o conjunto de imagens Chars74k para treinamento de uma CNN e depois utilizadas técnicas de OCR para reconhecimento de caracteres com base no modelo proposto.
 
-## Este projeto foi criado em um WSL Debian.
+Após devolução e correção do relatório final deste projeto pelo professor da disciplina, o arquivo .pdf também será adicionado ao repositório.
+
+Neste arquivo .pdf será possível encontrar o que motivou esse projeto e quais serão os próximos passos para ele.
+
+Desde o início do projeto, foi pensado em utilizar modelos YOLO para o reconhecimento de objetos e caracteres. Contudo, por falta de experiência com as tecnologias de Visão Computacional, utilizamos nesta primeira versão do projeto um modelo CNN com OCR. Por isso também, não utilizamos o modelo Faster-CNN, já que não é o modelo que pretendemos utilizar no futuro.
+
+## Fluxo do projeto
+
+- Os arquivos 01 ao 14 deste repositório explicam como este projeto foi desenvolvido; Eles não foram escritos para serem executados em seu computador, apenas para explicar termos técnicos e justificar as técnicas empregadas;
+- Os arquivos script_01 ao script_05 são para serem executados; Eles explicam didaticamente o fluxo do projeto.
+
+
+### Este projeto foi criado em um WSL Debian.
 
 ### Para executá-lo é preciso instalar as dependências:
 
